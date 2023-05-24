@@ -16,7 +16,7 @@ http.onload = function(){
 			output += `
           <div class="row pt-5">
             <div class="col-12 col-md-7 text-center">
-              <img src="${item.image}" alt="" class="img-fluid" style="width: 369px; height: 249px;">
+              <img src="${item.image}" alt="" class="img-fluid" style="width: 369px; height-auto: 249px;">
             </div>
             <div class="col-12 col-md-5 text-center ">
               <div class="row">
