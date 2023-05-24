@@ -1,0 +1,40 @@
+function aplicarFiltros() {
+    var museusEspecializados = document.getElementById("museusEspecializados").checked;
+    var galeriasArte = document.getElementById("galeriasArte").checked;
+    var museusHistoria = document.getElementById("museusHistoria").checked;
+    var numeroTelefone = "962 443 700"; // Número de telefone a ser filtrado
+
+    var museusDiv = document.querySelector(".museus");
+
+    // Filtrar a lista de museus por número de telefone
+    var resultadoFiltro = filtrarPorTelefone(numeroTelefone);
+
+    // Lógica de filtragem com base nas checkboxes selecionadas
+    if (museusEspecializados) {
+        // Filtrar por museus especializados
+        resultadoFiltro = resultadoFiltro.filter(function(museu) {
+            // Adicione aqui a lógica para filtrar por museus especializados
+        });
+    }
+
+    if (galeriasArte) {
+        // Filtrar por galerias de arte
+        resultadoFiltro = resultadoFiltro.filter(function(museu) {
+            // Adicione aqui a lógica para filtrar por galerias de arte
+        });
+    }
+
+    if (museusHistoria) {
+        // Filtrar por museus de história
+        resultadoFiltro = resultadoFiltro.filter(function(museu) {
+            // Adicione aqui a lógica para filtrar por museus de história
+        });
+    }
+
+    // Mostrar os resultados do filtro
+    museusDiv.innerHTML = "";
+
+    resultadoFiltro.forEach(function(museu) {
+        // Adicione aqui a lógica para exibir os resultados do filtro
+    });
+}
