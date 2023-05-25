@@ -1,0 +1,92 @@
+[
+	{
+		"image": "Imagens/Museus/mosteiro.png",
+		"title": "Mosteiro de São Martinho de Tibães",
+        "distancia": "5,5km",
+		"descricao": "O Mosteiro de São Martinho de Tibães localiza-se na freguesia de Mire de Tibães, município de Braga.",
+        "telemovel": "253 622 670",
+		"categoria": "especializados"
+	},
+
+
+{
+		"image": "Imagens/Museus/biscainhos.png",
+		"title": "Museu dos Biscainhos",
+        "distancia": "700m",
+		"descricao": "O Museu dos Biscainhos está instalado no Palácio dos Biscainhos, fundado no século XVII e transformado na 1ª metade do século XVIII. Em 1978 foi convertido em Museu.",
+        "telemovel": "253 204 650",
+		"categoria": "especializados"
+	},
+
+	{
+		"image": "Imagens/Museus/zet.png",
+		"title": "Zet Gallery",
+        "distancia": "450m",
+		"descricao": "A zet gallery é um espaço físico de características excecionais, situado no centro de Braga, com uma área de exposição de 800m2.",
+        "telemovel": "253 116 620",
+		"categoria": "arte"
+	},
+
+{
+		"image": "Imagens/Museus/arqueologia.png",
+		"title": "Museu de Arqueologia D. Diogo de Sousa",
+        "distancia": "1,3 km",
+		"descricao": "O Museu D. Diogo de Sousa é um museu de arqueologia, aberto ao público desde Junho de 2007 num edifício construído de raiz.",
+        "telemovel": "253 273 706",
+		"categoria": "especializados"
+	},
+
+{
+		"image": "Imagens/Museus/coimbra.jpg",
+		"title": "House of Coimbra",
+        "distancia": "550m",
+		"descricao": "O conjunto House of Coimbra localiza-se na freguesia de Braga. Apesar da continuidade local e das afinidades históricas, os dois edifícios constituem dois monumentos autónomos com classificação diferenciada.",
+        "telemovel": "253 050 629",
+		"categoria": "especializados"
+	},
+
+{
+		"image": "Imagens/Museus/museu_da_imagem.png",
+		"title": "Museu da Imagem",
+        "distancia": "800m",
+		"descricao": "O Museu da Imagem é um museu de Braga, dedicado à fotografia. Foi inaugurado em 25 de Abril de 1999 e está instalado no Campo das Hortas, junto ao Arco da Porta Nova.",
+        "telemovel": "253 278 633",
+		"categoria": "arte"
+	},
+
+{
+		"image": "Imagens/Museus/pio.png",
+		"title": "Museu PIO XII",
+        "distancia": "700m",
+		"descricao": "O Museu Pio XII é um museu dedicado à Arte Sacra e Arqueologia. Situa-se no edifício do Seminário Conciliar de Santiago em Braga.",
+        "telemovel": "253 200 130",
+		"categoria": "especializados"
+	},
+
+{
+		"image": "Imagens/Museus/nogueira.png",
+		"title": "Museu Nogueira da Silva",
+        "distancia": "Centro",
+		"descricao": "O Museu Nogueira da Silva é um museu criado a partir de um legado, feito em 1975, por António Augusto Nogueira da Silva, à Universidade do Minho.",
+        "telemovel": "253 601 275",
+		"categoria": "historia"
+	},
+
+{
+		"image": "Imagens/Museus/tesouro.png",
+		"title": "Tesouro-Museu da Sé de Braga",
+        "distancia": "650m",
+		"descricao": "O Tesouro-Museu da Sé de Braga, fundado em 1930, é um lugar cheio de história onde se guardam notáveis tesouros.",
+        "telemovel": "253 263 317",
+		"categoria": "historia"
+	},
+
+{
+		"image": "Imagens/Museus/traje.png",
+		"title": "Museu do Traje Dr. Gonçalo Sampaio",
+        "distancia": "550m",
+		"descricao": "O Museu do Traje Dr. Gonçalo Sampaio é um espaço dedicado à etnografia do Baixo Minho.",
+        "telemovel": "962 443 700",
+		"categoria": "historia"
+	}
+]
