@@ -15,13 +15,13 @@ http.onload = function(){
 		for(let item of museus){
 			output += `
           <div class="row pt-5">
-            <div class="col-12 col-md-7 text-center">
+            <div class="col-2 col-md-7 text-center style="padding-right="10px">
               <img src="${item.image}" alt="" class="img-fluid" style="width: 369px; height-auto: 249px;">
             </div>
-            <div class="col-12 col-md-5 text-center ">
+            <div class="col-10 col-md-5 pt-5 text-left ">
               <div class="row">
                 <div class="col-12">
-                  <p style="font-size: 15px;"><strong>${item.title}</strong></p>
+                  <p style="font-size: 40x;"><strong>${item.title}</strong></p>
                 </div>
               </div>
               <div class="row text-center ">
