@@ -17,7 +17,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/bg-paginaInicial.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/headers/bg-paginaInicial.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -82,7 +82,7 @@
   }
 
   .image-column img {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     border-radius: 18px 0 0 18px;
     
@@ -173,7 +173,7 @@
   .gallery-container {
     padding-left: 350px;
     padding-right: 350px;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 80px;
    
   }
@@ -194,7 +194,7 @@
 .sub-header{
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/bg-museu.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/headers/bg-museu.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -210,4 +210,19 @@
     color: #fff;
 }
 
+@media(max-width: 700px){
+  .museus{
+    margin-top: 300px;
+  }
+  .form-check-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+}
+
+
+
+/*------------------------------------ LOGIN ------------------------------------*/ 
 

@@ -78,7 +78,7 @@ function exibirMuseus(museus) {
         <div class="col-12 col-md-6 text-center" style="padding-right: 10px;">
           <img src="${item.image}" alt="" class="img-fluid" style="max-width: 369px; height: auto;">
         </div>
-        <div class="col-12 col-md-6 pt-3 text-left">
+        <div class="col-12 col-md-6 pt-3 text-left" style="left: -50px">
           <div class="row">
             <div class="col-12">
               <p style="font-size: 30px;"><strong>${item.title}</strong></p>
