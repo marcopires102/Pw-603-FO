@@ -1,34 +1,34 @@
 [
 	{
-		"image": "Imagens/bozen.png",
+		"image": "Imagens/Bares/bozen.png",
 		"title": "BôZen",
 		"morada": "Av. Dom João II,Edifício Pólo de Negócios, 15, Braga",
         "imglocalização": "Imagens/cone.png",
 		"estrelas": "Imagens/estrelas.png"
 	},
 	{
-		"image": "Imagens/keims.png",
+		"image": "Imagens/Bares/keims.png",
 		"title": "Keims",
 		"morada": "Rua Quinta da Armada, Pav. Nº5, Braga, Portugal",
         "imglocalização": "Imagens/cone.png",
 		"estrelas": "Imagens/estrelas.png"
 	},
 	{
-		"image": "Imagens/lustre.png",
+		"image": "Imagens/Bares/lustre.png",
 		"title": "Lustre",
 		"morada": "Praça Conde Agrolongo 115, Braga",
         "imglocalização": "Imagens/cone.png",
 		"estrelas": "Imagens/estrelas.png"
 	},
 	{
-		"image": "Imagens/rossiobar.png",
+		"image": "Imagens/Bares/rossiobar.png",
 		"title": "Rossio Bar",
 		"morada": "Rua D. Paio Mendes, n.º 81, Sé, Braga",
         "imglocalização": "Imagens/cone.png",
 		"estrelas": "Imagens/estrelas.png"
 	},
 	{
-		"image": "Imagens/malamado.png",
+		"image": "Imagens/Bares/malamado.png",
 		"title": "Mal Amado",
 		"morada": "Rua D. Paio Mendes, n.º 87, Sé,  Braga",
         "imglocalização": "Imagens/cone.png",
