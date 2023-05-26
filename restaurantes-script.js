@@ -25,11 +25,11 @@ http.onload = function(){
       </div>
     </div>
     <div class="row text-left pt-4">
-    <a style="font-size: 18px;"><i class="bi bi-geo-alt-fill" style="font-size:25px;"></i>${item.localizacao}</a>
+    <a style="font-size: 18px; text-decoration: none; color: black;" href="${item.link}"><i class="bi bi-geo-alt-fill" style="font-size:25px;"></i>&emsp;${item.localizacao}</a>
 
     </div>
     <div class="row text-left pt-5">
-      <p style="font-size: 20px;"> <i class="bi bi-telephone-fill"></i>&emsp;${item.telemovel}</p>
+      <a style="font-size: 18px;">&nbsp <i class="bi bi-telephone-fill"></i>&emsp;${item.telemovel}</a>
     </div>
   </div>
 </div>

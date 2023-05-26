@@ -32,7 +32,7 @@ http.onload = function(){
         <i class="bi bi-star"></i>
       </p>
     </div>
-    <div class="row text-left">
+    <div class="row text-center">
       <p style="font-size: 16px;">${item.descricao}</p>
     </div>
     <div class="row text-left">

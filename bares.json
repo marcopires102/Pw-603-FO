@@ -2,37 +2,32 @@
 	{
 		"image": "Imagens/Bares/bozen.png",
 		"title": "BôZen",
-		"morada": "Av. Dom João II,Edifício Pólo de Negócios, 15, Braga",
-        "imglocalização": "Imagens/cone.png",
-		"estrelas": "Imagens/estrelas.png"
+		"localizacao": "Av. Dom João II, Edifício Pólo de Negócios, 15, Braga",
+		"link":"https://www.google.com/maps/place/Bô+Zen/@41.5443902,-8.4022016,17z/data=!3m1!4b1!4m6!3m5!1s0xd24fea63ad7b62d:0x1de7d1293121e555!8m2!3d41.5443862!4d-8.3996213!16s%2Fg%2F11bwppr74j?entry=ttu"
 	},
 	{
 		"image": "Imagens/Bares/keims.png",
 		"title": "Keims",
-		"morada": "Rua Quinta da Armada, Pav. Nº5, Braga, Portugal",
-        "imglocalização": "Imagens/cone.png",
-		"estrelas": "Imagens/estrelas.png"
+		"localizacao": "Rua Quinta da Armada, Pav. Nº5, Braga, Portugal",
+		"link":"https://www.google.com/maps/place/KeimÒdrumo/@41.556056,-8.4068876,17z/data=!3m1!4b1!4m6!3m5!1s0xd24fe990e08e6fd:0x174ac3c91c43e7ff!8m2!3d41.556052!4d-8.4043073!16s%2Fg%2F11f02891h1?entry=ttu"
 	},
 	{
 		"image": "Imagens/Bares/lustre.png",
 		"title": "Lustre",
-		"morada": "Praça Conde Agrolongo 115, Braga",
-        "imglocalização": "Imagens/cone.png",
-		"estrelas": "Imagens/estrelas.png"
+		"localizacao": "Praça Conde Agrolongo 115, Braga",
+		"link":"https://www.google.com/maps/place/Lustre/@41.5528343,-8.4311015,17z/data=!3m1!4b1!4m6!3m5!1s0xd24fee86f90c195:0xb4750a936b60de21!8m2!3d41.5528303!4d-8.4285212!16s%2Fg%2F1z44b5tw_?entry=ttu"
 	},
 	{
-		"image": "Imagens/Bares/rossiobar.png",
+		"image": "Imagens/Bares/rossio.png",
 		"title": "Rossio Bar",
-		"morada": "Rua D. Paio Mendes, n.º 81, Sé, Braga",
-        "imglocalização": "Imagens/cone.png",
-		"estrelas": "Imagens/estrelas.png"
+		"localizacao": "Rua D. Paio Mendes, n.º 81, Sé, Braga",
+		"link":"https://www.google.com/maps/place/Rossio+Bar/@41.5499134,-8.4303687,17z/data=!3m1!4b1!4m6!3m5!1s0xd24fec2c7191935:0x467794cbfc0009e1!8m2!3d41.5499094!4d-8.4277884!16s%2Fg%2F11c7sq_ndf?entry=ttu"
 	},
 	{
-		"image": "Imagens/Bares/malamado.png",
+		"image": "Imagens/Bares/mal.png",
 		"title": "Mal Amado",
-		"morada": "Rua D. Paio Mendes, n.º 87, Sé,  Braga",
-        "imglocalização": "Imagens/cone.png",
-		"estrelas": "Imagens/estrelas.png"
+		"localizacao": "Rua D. Paio Mendes, n.º 87, Sé,  Braga",
+		"link":"https://www.google.com/maps/place/Mal+Amado/@41.5499265,-8.4303058,17z/data=!3m1!4b1!4m6!3m5!1s0xd24fec2952ab7ad:0xe8701c11e8f522f!8m2!3d41.5499225!4d-8.4277255!16s%2Fg%2F11c5t10nc2?entry=ttu"
 	}
 ]
 

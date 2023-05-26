@@ -1,6 +1,6 @@
 [
 	{
-		"image": "Imagens/Alojamentos/vila.png",
+		"image": "Imagens/alojamentos/vila.png",
 		"title": "Vila Gale Collection Braga",
         "distancia": "450m",
 		"descricao": "O Vila Gale Collection Braga está situado em Braga, a 600 metros da Sé Catedral de Braga.",
@@ -10,7 +10,7 @@
 
 
 {
-		"image": "Imagens/Alojamentos/melia.png",
+		"image": "Imagens/alojamentos/melia.png",
 		"title": "Melia Braga Hotel & Spa",
         "distancia": "2,7km",
 		"descricao": "O Melia Braga Hotel & Spa dispõe de acomodações superiores de 5 estrelas, com excelentes ligações de transportes para o centro da cidade.",
@@ -19,7 +19,7 @@
 	},
 
 	{
-		"image": "Imagens/Alojamentos/domus.png",
+		"image": "Imagens/alojamentos/domus.png",
 		"title": "Domus 26 Guesthouse",
         "distancia": "200m",
 		"descricao": "Integrada num edifício do século XIX que foi recentemente restaurado, a Domus 26 Guesthouse possui uma localização de excelência para quem pretende descobrir a pé o centro histórico de Braga.",
@@ -28,7 +28,7 @@
 	},
 
 {
-		"image": "Imagens/Alojamentos/se.png",
+		"image": "Imagens/alojamentos/se.png",
 		"title": "Sé INN Suítes/Estúdios",
         "distancia": "No centro",
 		"descricao": "A SÉ INN oferece aos seus hóspedes elegantes Suites e Estúdios com excelente conforto no centro histórico de Braga.",
@@ -37,7 +37,7 @@
 	},
 
 {
-		"image": "Imagens/Alojamentos/garden.png",
+		"image": "Imagens/alojamentos/garden.png",
 		"title": "Villa Garden Braga",
         "distancia": "1,1km",
 		"descricao": "A Hotel Villa Garden Braga, está situada num edifício do século XIX em Braga. Os quartos espaçosos possuem ar condicionado, uma televisão por cabo e um mini-bar.",
@@ -46,7 +46,7 @@
 	},
 
 {
-		"image": "Imagens/Alojamentos/rural.png",
+		"image": "Imagens/alojamentos/rural.png",
 		"title": "Hotel Rural Alves - Casa Alves Torneiros",
         "distancia": "9km",
 		"descricao": "Apenas a uma pequena viagem de carro da cidade de Braga, este hotel está localizado numa área campestre portuguesa e foi construído e decorado em harmonia com a sua envolvente.",
@@ -55,7 +55,7 @@
 	},
 
 {
-		"image": "Imagens/Alojamentos/apartamentos.png",
+		"image": "Imagens/alojamentos/apartamentos.png",
 		"title": "Sé Apartamentos - Porta34 Central Apartments",
         "distancia": "1,2km",
 		"descricao": "As acomodações incluem ar condicionado, televisão, uma kitchenette totalmente equipada e uma casa de banho privativa...",
@@ -64,7 +64,7 @@
 	},
 
 {
-		"image": "Imagens/Alojamentos/parque.png",
+		"image": "Imagens/alojamentos/parque.png",
 		"title": "Hotel do Parque",
         "distancia": "4,3km",
 		"descricao": "Conhecido por seu ambiente romântico e pela proximidade de ótimos restaurantes e de atrações famosas, o Hotel do Parque faz com que seja fácil desfrutar o melhor de Braga.",
@@ -73,7 +73,7 @@
 	},
 
 {
-		"image": "Imagens/Alojamentos/lux.png",
+		"image": "Imagens/alojamentos/lux.png",
 		"title": "Lux Housing Século XXI",
         "distancia": "No centro",
 		"descricao": "Apartamentos Turísticos Premium no centro de Braga que proporciona alojamento com acesso Wi-Fi gratuito e uma área de estar em Braga.",
@@ -82,7 +82,7 @@
 	},
 
 {
-		"image": "Imagens/Alojamentos/mercure.png",
+		"image": "Imagens/alojamentos/mercure.png",
 		"title": "Hotel Mercure Braga",
         "distancia": "100m",
 		"descricao": "Este hotel foi totalmente remodelado em 2013 e alberga um centro de fitness e uma piscina exterior.",
