@@ -1,0 +1,26 @@
+[
+    {
+        "image":"Imagens/rent/carjet.png",
+        "website":"www.carjet.com"
+    },
+    {
+        "image":"Imagens/rent/guerin.png",
+        "website":"www.guerin.pt"
+    },
+    {
+        "image":"Imagens/rent/hertz.png",
+        "website":"www.hertz.pt"
+    },
+    {
+        "image":"Imagens/rent/kayak.png",
+        "website":"www.kayak.pt"
+    },
+    {
+        "image":"Imagens/rent/rental.png",
+        "website":"www.rentalcars.com"
+    },
+    {
+        "image":"Imagens/rent/sixt.png",
+        "website":"www.sixt.pt"
+    }
+]

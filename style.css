@@ -274,5 +274,34 @@
   
 }
 
+/*------------------------------------ RENT-A-CAR ------------------------------------*/ 
+
+.sub-header-rent{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/rent/rent-nav.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+
+
+
+/*------------------------------------ BARES ------------------------------------*/ 
+
+.sub-header-bares{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/Bares/bares-nav.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+
+
 /*------------------------------------ LOGIN ------------------------------------*/ 
 
