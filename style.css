@@ -304,6 +304,18 @@
   
 }
 
+/*------------------------------------  ------------------------------------*/ 
+
+.sub-header-informacoes{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/headers/bg-informacoes.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  
+}
+
 /*------------------------------------ SOBRE NOS ------------------------------------*/  
 
 
@@ -366,12 +378,12 @@ header{
     background: rgba(255,255,255,0.1);
     outline: none;
 }
-i{
+/*i{
     position: relative;
     top: -33px;
     left: 17px;
     color: #fff;
-}
+}*/
 ::-webkit-input-placeholder{
     color: #fff;
 }
