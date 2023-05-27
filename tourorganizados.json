@@ -1,0 +1,30 @@
+[
+	{
+		"image": "Imagens/Tours/tour1.JPG",
+		"title": "CONHECE O MOSTEIRO DE TIBÃES",
+        "descricao": "Mosteiro de Tibães, também conhecido como Mosteiro de São Martinho de Tibães, é um monumento histórico localizado em Braga, Portugal. <br> <br><br> Max: 10 pessoas",
+        "preco": "35€"
+		
+	},
+	{
+			"image": "Imagens/Tours/tour2.jpg",
+			"title": "EXPLORA O CENTRO DA CIDADE",
+			"descricao": "Visite o centro da cidade de Braga e locais históricos como a Biblioteca Pública, o Theatro Circo e a Praça da República. <br> <br><br><br>   Max: 20 pessoas",
+			"preco": "20€"
+
+	},
+	{
+		"image": "Imagens/Tours/tour3.jpg",
+		"title": "DO BOM JESUS AO SAMEIRO",
+		"descricao": "O Bom Jesus do Monte é um santuário localizado na cidade de Braga, em Portugal. Os visitantes podem subir até ao topo do monte por meio de um teleférico ou desfrutar de uma caminhada pelos trilhos arborizados do parque.<br><br>    Max: 8 pessoas",
+		"preco": "50€"
+	
+    },
+	{
+		"image": "Imagens/Tours/tour4.jpg",
+		"title": "ARCO DA PORTA NOVA E AS AVENIDAS ",
+		"descricao": "O arco é um exemplo notável da arquitetura renascentista em Portugal e apresenta uma série de detalhes ornamentais em pedra. As Avenidas são uma importante área de Braga que incluem uma série de ruas e praças que se estendem pelo centro histórico.<br> Max: 20 pessoas",
+		"preco": "24€"
+
+    }
+]
