@@ -304,12 +304,24 @@
   
 }
 
-/*------------------------------------  ------------------------------------*/ 
+/*------------------------------------ INFORMAÇÕES ------------------------------------*/ 
 
 .sub-header-informacoes{
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/headers/bg-informacoes.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+/*------------------------------------ INFORMAÇÕES ------------------------------------*/ 
+
+.sub-header-contacto{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/headers/bg-contacto.png);
   background-position: center;
   background-size: cover;
   text-align: center;
