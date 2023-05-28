@@ -25,11 +25,11 @@ http.onload = function(){
         </p>
       </div>
       <div class="col-9 text-center pt-2">
-      <p><i class="bi bi-star-fill" style="font-size: 20px; margin-left:157px;"></i>
-      <i class="bi bi-star-fill" style="font-size: 20px;"></i>
-      <i class="bi bi-star-fill" style="font-size: 20px;"></i>
-      <i class="bi bi-star-fill" style="font-size: 20px;"></i>
-      <i class="bi bi-star-fill" style="font-size: 20px;"></i><p>
+      <p><i class="bi bi-star-fill" style="font-size: 19px; margin-left:157px;"></i>
+      <i class="bi bi-star-fill" style="font-size: 19px;"></i>
+      <i class="bi bi-star-fill" style="font-size: 19px;"></i>
+      <i class="bi bi-star-fill" style="font-size: 19px;"></i>
+      <i class="bi bi-star-fill" style="font-size: 19px;"></i><p>
       </div>
     </div>
     <div class="row text-left pt-4">

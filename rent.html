@@ -15,73 +15,74 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" rel="stylesheet"/>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-</head>
-<body>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    
+
+    <script src="main.js"></script>
+
+</head>
+<body>
 
     <section class="sub-header-rent">
-
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="paginaInicial.html">
-          <img src="Imagens/headers/logobranco.png" alt="Logo" width="135" height="95" class="d-inline-block align-text-center" >
+<!--- navbar --->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <a class="navbar-brand" href="paginaInicial.html">
+    <img src="Imagens/headers/logobranco3.png" alt="Logo" width="190" height="85" class="d-inline-block align-text-center">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="tourorganizados.html" >Planear Rota</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Descobrir Braga
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#" >Planear Rota</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Descobrir Braga
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="porquebraga.html">Porque Braga</a></li>
-                <li><a class="dropdown-item" href="alojamentos.html">Alojamentos</a></li>
-                <li><a class="dropdown-item" href="bares.html">Bares</a></li>
-                <li><a class="dropdown-item" href="museus.html">Museus</a></li>
-                <li><a class="dropdown-item" href="restaurantes.html">Restaurantes</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Informaçoes
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="informacoesuteis.html">Informaçoes Úteis</a></li>
-                <li><a class="dropdown-item" href="rent.html">Rent-A-Car</a></li>
-                <li><a class="dropdown-item" href="sobrenos.html">Sobre Nós</a></li>
-                <li><a class="dropdown-item" href="#">Contacta-nos</a></li>               
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="porquebraga.html">Porque Braga</a></li>
+          <li><a class="dropdown-item" href="alojamentos.html">Alojamentos</a></li>
+          <li><a class="dropdown-item" href="bares.html">Bares</a></li>
+          <li><a class="dropdown-item" href="museus.html">Museus</a></li>
+          <li><a class="dropdown-item" href="restaurantes.html">Restaurantes</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Informaçoes
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="informacoesuteis.html">Informaçoes Úteis</a></li>
+          <li><a class="dropdown-item" href="rent.html">Rent-A-Car</a></li>
+          <li><a class="dropdown-item" href="sobrenos.html">Sobre Nós</a></li>
+          <li><a class="dropdown-item" href="contactos.html">Contacta-nos</a></li>              
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-      <script>
-        const navE1 = document.querySelector('.navbar');
+<script>
+  const navE1 = document.querySelector('.navbar');
 
-          window.addEventListener('scroll', () => {
-              if (window.scrollY >= 56) {
-                  navE1.classList.add('navbar-scrolled');
-              } else if (window.scrollY < 56) {
-                  navE1.classList.remove('navbar-scrolled');
-              }
-          });
-      </script>
+    window.addEventListener('scroll', () => {
+        if (window.scrollY >= 56) {
+            navE1.classList.add('navbar-scrolled');
+        } else if (window.scrollY < 56) {
+            navE1.classList.remove('navbar-scrolled');
+        }
+    });
+</script>
+<!--- /navbar --->
 
-      
 
     <div class="text-box-subheader">
         <h1>RENT-A-CAR</h1>
@@ -95,7 +96,7 @@
       <div class="row text-left pt-5">
         <div class="col-2"></div>
         <div class="col-8">
-            <p>Alugue um carro em Braga e explore a cidade e as suas belas paisagens com liberdade e flexibilidade, graças aos serviços de rent-a-car disponíveis na região:</p>
+            <p style="text-align: center;">Alugue um carro em Braga e explore a cidade e as suas belas paisagens com liberdade e flexibilidade, graças aos serviços de rent-a-car disponíveis na região.</p>
         </div>
         <div class="col-2"></div>
       </div>
@@ -207,106 +208,12 @@
 </section>
 
 <!-- Footer -->
-<footer class="text-center text-lg-start  text-muted " style="background-color: rgb(226, 226, 226); margin-top: 50px;">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-2 ">
-      <!-- Left -->
-      
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-  
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-2">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h5 class="text-uppercase fw-bold mb-4">
-              BRAGA Tourism
-            </h5>
-            <p>
-            (+351 253 987 654)  <br><br> info@bragatourism.com <br><br> Azurém, Guimarães
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Planear Rota
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Tours Organizados</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Descobrir Braga
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Porque Braga</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Alojamentos</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Bares/Discotecas</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Museus</a>
-            </p>
-            <p>
-                <a href="#!" class="text-reset">Restaurantes</a>
-              </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-                Informaçoes
-            </h6>
-            <p>
-                <a href="#!" class="text-reset">Informaçoes Uteis</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Rent-A-Car</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Sobre Nós</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Contacta-nos</a>
-              </p>
-             
-            
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-      </div>
 
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.1);">
-        © 2023 Copyright:
-        <a class="text-reset fw-bold" href="http://127.0.0.1:5500/paginaInicial.html#">BragaTourism.com</a>
-      </div>
-    </section>
-    <!-- Section: Links  -->
-  
-    
-  </footer>
-  <!-- Footer -->
- 
-    <!-- Footer -->
+<div id="footer-container"></div>
+
+<script>
+    loadFooter();
+  </script>
     
 </body>
 

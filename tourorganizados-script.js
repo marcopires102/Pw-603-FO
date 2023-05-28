@@ -29,7 +29,7 @@ http.onload = function(){
                 <h1>${item.preco}</h1>
                 <p>/por pessoa</p>
                 <div class="d-flex justify-content-center">
-                    <button class="btn btn-outline-light custom-button" alt="${item.pagina}">Ver Tour</button>
+                    <a href="${item.pagina}"<button class="btn btn-outline-light custom-button" alt="">Ver Tour</button></a>
                   </div>
               </div>
             </div>

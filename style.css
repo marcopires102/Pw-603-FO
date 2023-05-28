@@ -55,12 +55,18 @@
     margin-top: 100px;
     margin-bottom: 0px;
 }
+.titulo-tours{
+  text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .sub-titulo{
      font-size: 20px;
       font-weight: 400;
       line-height: normal;
       color: rgba(83, 83, 83, 1);
       text-align: center;
+      
 }
 
 /*-------- eventos --------*/
@@ -103,6 +109,7 @@
   .gray-column h3{
     padding-left: 10px;
     padding-right: 10px;
+    
   }
 
   .gray-column p{
@@ -110,6 +117,7 @@
     padding-right: 10px;
     font-size: 14px;
     color: rgba(83, 83, 83, 1);
+    text-align: justify;
   }
 
   .blue-column {
@@ -193,8 +201,11 @@
       }
   }
 
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
  
-/*------------------------------------ MUSEUS "e base para os outros" ------------------------------------*/  
+/*------------------------------------ MUSEUS "e base do titulo para os outros" ------------------------------------*/  
 
 .sub-header{
   height: 50vh;
@@ -213,6 +224,7 @@
     transform: translate(-50%,-10%);
     text-align: center;
     color: #fff;
+    
 }
 
 @media(max-width: 700px){
@@ -264,11 +276,7 @@
   
 }
 
-
 @media(max-width: 700px){
-  .restaurantes{
-    margin-top: 300px;
-  }
   .form-check-label {
     white-space: nowrap;
     overflow: hidden;
@@ -304,7 +312,7 @@
   
 }
 
-/*------------------------------------  ------------------------------------*/ 
+/*------------------------------------ INFORMAÇOES UTEIS ------------------------------------*/ 
 
 .sub-header-informacoes{
   height: 50vh;
@@ -328,6 +336,39 @@
   
 }
 
+/*------------------------------------ CONTACTOS ------------------------------------*/ 
+
+.sub-header-contacto{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/headers/bg_sobrenos.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+/*------------------------------------ PERFIL ------------------------------------*/ 
+
+.sub-header-perfil{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/headers/bg-p3.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.btn-selected {
+  background-color: green;
+  color: white;
+}
+
+.labels {
+  font-size: 11px
+}
+
+
+
 /*------------------------------------ SOBRE NOS ------------------------------------*/  
 
 
@@ -343,6 +384,30 @@
 
 .w-200 {
   width: 200px;
+}
+
+/*------------------------------------ TOURS ORGANIZADOS ------------------------------------*/  
+.sub-header-toursorganizados{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/headers/bg-toursorganizados.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.info-atividades{  /*oaginas da informaçao da tour*/
+  font-size: 14px;
+  color: #6c757d;
+}
+
+/*------------------------------------ PORQUE BRAGA ------------------------------------*/ 
+.border-black {
+  border: 1px solid black;
+}
+
+.btn-group-vertical .btn {
+  text-align: left;
 }
 
 
@@ -390,12 +455,12 @@ header{
     background: rgba(255,255,255,0.1);
     outline: none;
 }
-/*i{
+.icons-lr{
     position: relative;
     top: -33px;
     left: 17px;
     color: #fff;
-}*/
+}
 ::-webkit-input-placeholder{
     color: #fff;
 }
