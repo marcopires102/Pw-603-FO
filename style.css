@@ -324,18 +324,6 @@
   
 }
 
-/*------------------------------------ CONTACTOS ------------------------------------*/ 
-
-.sub-header-contacto{
-  height: 50vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/headers/bg-contacto.png);
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  
-}
-
 /*------------------------------------ BARES ------------------------------------*/ 
 
 .sub-header-braga{
