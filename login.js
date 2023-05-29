@@ -11,6 +11,7 @@ function loginUser() {
 
     if (loggedInUser) {
         localStorage.setItem("acesso", true);
+        localStorage.setItem("loggedInUser", JSON.stringify(loggedInUser));
         alert("Login bem-sucedido!");
         // Redirecionar para a página inicial
         window.location.href = "paginaInicial.html";

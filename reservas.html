@@ -57,27 +57,30 @@
 
     <table id="tabelaDados" class="table mt-5">
       <thead>
-          <tr>
-              <th>Nome</th>
-              <th>Telefone</th>
-              <th>Tour</th>
-              <th>Número de Participantes</th>
-              <th>Data</th>
-              <th>Horas</th>
-              <th>Preço</th>
-              <th>Estado</th> <!-- Coluna adicionada para exibir o estado -->
-          </tr>
+        <tr>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th>Tour</th>
+          <th>Número de Participantes</th>
+          <th>Data</th>
+          <th>Horas</th>
+          <th>Preço</th>
+          <th>Estado</th>
+        </tr>
       </thead>
       <tbody></tbody>
-  </table>
-
-  <script>
-    window.addEventListener("load", function() {
+    </table>
+    
+    <script>
+      window.addEventListener("load", function() {
         var registros = JSON.parse(localStorage.getItem("registros")) || [];
         var tabela = document.getElementById("tabelaDados");
-
+    
+        let loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'))
+    
         for (var i = 0; i < registros.length; i++) {
-            var registro = registros[i];
+          var registro = registros[i];
+          if (registro.user === loggedInUser.username) { // Filtra os registros pelo nome de usuário
             var novaLinha = tabela.insertRow();
             var celulaNome = novaLinha.insertCell(0);
             var celulaTelefone = novaLinha.insertCell(1);
@@ -88,6 +91,7 @@
             var celulaPreco = novaLinha.insertCell(6);
             var celulaEstado = novaLinha.insertCell(7);
 
+    
             celulaNome.innerHTML = registro.nome;
             celulaTelefone.innerHTML = registro.telefone;
             celulaTour.innerHTML = registro.tour;
@@ -97,9 +101,11 @@
             celulaPreco.innerHTML = registro.preco;
             celulaEstado.innerHTML = registro.estado;
 
+          }
         }
-    });
-</script>
+      });
+    </script>
+    
 
 
   

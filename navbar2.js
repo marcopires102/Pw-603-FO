@@ -43,7 +43,7 @@ function loadNavbar2() {
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="perfil.html">Perfil</a></li>
-              <li><a class="dropdown-item" href="" id="logout-button">Logout</a></li>
+              <li><a class="dropdown-item" href="paginaInicial.html" id="logout-button">Logout</a></li>
                           
             </ul>
           </li>

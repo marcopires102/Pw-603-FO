@@ -126,6 +126,7 @@
         var precoTour = precosTours[tour];
         var preco = precoTour * participantes;
 
+        let loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'))
 
           var dados = {
               nome: nome,
@@ -135,10 +136,12 @@
               data: data,
               horas: horas,
               preco: preco,
-              estado: "Pendente"
-              
+              estado: "Pendente",
+              user: loggedInUser.username
           };
-  
+          
+          
+
           var registros = JSON.parse(localStorage.getItem("registros")) || [];
           registros.push(dados);
           localStorage.setItem("registros", JSON.stringify(registros));
@@ -151,7 +154,8 @@
           document.getElementById("dataInput").value = "";
           document.getElementById("horasInput").value = "";
       });
-  </script>    
+  </script>
+    
   
 <!-- Footer -->
 
