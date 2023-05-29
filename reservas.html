@@ -106,7 +106,44 @@
 
     <hr style="width: 70%; border-top: 2px solid #000; margin: 0 auto;">
 
-
+    <table id="tabelaDados" class="table mt-5">
+      <thead>
+          <tr>
+              <th>Nome</th>
+              <th>Telefone</th>
+              <th>Tour</th>
+              <th>Número de Participantes</th>
+              <th>Data</th>
+              <th>Horas</th>
+          </tr>
+      </thead>
+      <tbody></tbody>
+  </table>
+  
+  <script>
+      window.addEventListener("load", function() {
+          var registros = JSON.parse(localStorage.getItem("registros")) || [];
+          var tabela = document.getElementById("tabelaDados");
+  
+          for (var i = 0; i < registros.length; i++) {
+              var registro = registros[i];
+              var novaLinha = tabela.insertRow();
+              var celulaNome = novaLinha.insertCell(0);
+              var celulaTelefone = novaLinha.insertCell(1);
+              var celulaTour = novaLinha.insertCell(2);
+              var celulaParticipantes = novaLinha.insertCell(3);
+              var celulaData = novaLinha.insertCell(4);
+              var celulaHoras = novaLinha.insertCell(5);
+              celulaNome.innerHTML = registro.nome;
+              celulaTelefone.innerHTML = registro.telefone;
+              celulaTour.innerHTML = registro.tour;
+              celulaParticipantes.innerHTML = registro.participantes;
+              celulaData.innerHTML = registro.data;
+              celulaHoras.innerHTML = registro.horas;
+          }
+      });
+  </script>
+  
   
 <!----------- footer ----------->
 

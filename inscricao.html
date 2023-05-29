@@ -109,30 +109,63 @@
     <hr style="width: 70%; border-top: 2px solid #000; margin: 0 auto;">
 
     <div class="row justify-content-center d-flex">
-    <div class="col-md-6">
-        <div class="row mt-5">
-            <div class="col-12">
-                <h3>Inscreva-se já na sua próxima Tour!</h3>
-                <p style="text-align: justify;">Preencha o seguinte formulário para efetuar a sua reserva.</p>
-            </div>
-                <div class="col-md-12"><label class="labels">Nome</label><input type="text" class="form-control" placeholder="Nome completo" value=""></div>
-                <div class="col-md-12 pt-3"><label class="labels">Telefone</label><input type="email" class="form-control" placeholder="Número de telefone" value=""></div>
-                <div class="col-md-12 pt-3"><label class="labels" for="inputState">Tour</label><select id="inputState" class="form-control">
-                    <option>Tour1</option>
-                    <option>Tour2</option>
-                    <option>Tour3</option>
-                    <option>Tour4</option>
-                  </select>
-                <div class="col-md-12 pt-3"><label class="labels">Número de Participantes</label><input type="number" class="form-control" placeholder="Número de Participantes" value=""></div>
-                <div class="col-md-12 pt-3"><label class="labels">Data</label><input type="text" class="form-control" placeholder="dd/mm/aaaa" value=""></div>
-                <div class="col-md-12 pt-3"><label class="labels">Horas</label><input type="text" class="form-control" placeholder="--:--" value=""></div>
-
-            <div class="col-12 pt-4">
-                <button type="submit" class="btn btn-secondary">Inscrever</button>
-            </div>
-        </div>
-    </div> 
-    </div>       
+      <div class="col-md-6">
+          <div class="row mt-5">
+              <div class="col-12">
+                  <h3>Inscreva-se já na sua próxima Tour!</h3>
+                  <p style="text-align: justify;">Preencha o seguinte formulário para efetuar a sua reserva.</p>
+              </div>
+              <div class="col-md-12"><label class="labels">Nome</label><input id="nomeInput" type="text" class="form-control" placeholder="Nome completo" value=""></div>
+              <div class="col-md-12 pt-3"><label class="labels">Telefone</label><input id="telefoneInput" type="email" class="form-control" placeholder="Número de telefone" value=""></div>
+              <div class="col-md-12 pt-3"><label class="labels" for="inputState">Tour</label><select id="tourInput" class="form-control">
+                  <option>Tour1</option>
+                  <option>Tour2</option>
+                  <option>Tour3</option>
+                  <option>Tour4</option>
+              </select></div>
+              <div class="col-md-12 pt-3"><label class="labels">Número de Participantes</label><input id="participantesInput" type="number" class="form-control" placeholder="Número de Participantes" value=""></div>
+              <div class="col-md-12 pt-3"><label class="labels">Data</label><input id="dataInput" type="text" class="form-control" placeholder="dd/mm/aaaa" value=""></div>
+              <div class="col-md-12 pt-3"><label class="labels">Horas</label><input id="horasInput" type="text" class="form-control" placeholder="--:--" value=""></div>
+  
+              <div class="col-12 pt-4">
+                  <button id="inscreverBtn" type="submit" class="btn btn-secondary">Inscrever</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <script>
+      document.getElementById("inscreverBtn").addEventListener("click", function() {
+          var nome = document.getElementById("nomeInput").value;
+          var telefone = document.getElementById("telefoneInput").value;
+          var tour = document.getElementById("tourInput").value;
+          var participantes = document.getElementById("participantesInput").value;
+          var data = document.getElementById("dataInput").value;
+          var horas = document.getElementById("horasInput").value;
+  
+          var dados = {
+              nome: nome,
+              telefone: telefone,
+              tour: tour,
+              participantes: participantes,
+              data: data,
+              horas: horas
+          };
+  
+          var registros = JSON.parse(localStorage.getItem("registros")) || [];
+          registros.push(dados);
+          localStorage.setItem("registros", JSON.stringify(registros));
+  
+          // Limpar os campos de entrada
+          document.getElementById("nomeInput").value = "";
+          document.getElementById("telefoneInput").value = "";
+          document.getElementById("tourInput").value = "";
+          document.getElementById("participantesInput").value = "";
+          document.getElementById("dataInput").value = "";
+          document.getElementById("horasInput").value = "";
+      });
+  </script>
+        
   
 <!----------- footer ----------->
 
