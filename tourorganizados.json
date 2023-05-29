@@ -3,7 +3,7 @@
 		"image": "Imagens/Tours/tour1.JPG",
 		"title": "CONHECE O MOSTEIRO DE TIBÃES",
         "descricao": "Mosteiro de Tibães, também conhecido como Mosteiro de São Martinho de Tibães, é um monumento histórico localizado em Braga, Portugal. <br> <br><br> Max: 10 pessoas",
-        "preco": "35€",
+        "preco": "27€",
 		"pagina": "tour1.html"
 	},
 	{
@@ -17,7 +17,7 @@
 		"image": "Imagens/Tours/tour3.jpg",
 		"title": "DO BOM JESUS AO SAMEIRO",
 		"descricao": "O Bom Jesus do Monte é um santuário localizado na cidade de Braga, em Portugal. Os visitantes podem subir até ao topo do monte por meio de um teleférico ou desfrutar de uma caminhada pelos trilhos arborizados do parque.<br><br>    Max: 8 pessoas",
-		"preco": "50€",
+		"preco": "32€",
 		"pagina": "tour3.html"
 	
     },

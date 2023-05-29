@@ -10,11 +10,8 @@
     };
     xhr.send();
   }
-  
-  // Carregar a navbar e o footer ao carregar a página
-  window.onload = function() {
-    loadFooter();
-  };
+
+ 
 
 
 

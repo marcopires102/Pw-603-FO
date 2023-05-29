@@ -19,67 +19,16 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-    <script src="main.js"></script>
+    <script src="footer.js"></script>
+    <script src="navbar.js"></script>
+    <script src="navbar2.js"></script>
      
 </head>
 <body>
 
     <section class="header">
       <!--- navbar --->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="paginaInicial.html">
-          <img src="Imagens/headers/logobranco3.png" alt="Logo" width="190" height="85" class="d-inline-block align-text-center">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="tourorganizados.html" >Planear Rota</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Descobrir Braga
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="porquebraga.html">Porque Braga</a></li>
-                <li><a class="dropdown-item" href="alojamentos.html">Alojamentos</a></li>
-                <li><a class="dropdown-item" href="bares.html">Bares</a></li>
-                <li><a class="dropdown-item" href="museus.html">Museus</a></li>
-                <li><a class="dropdown-item" href="restaurantes.html">Restaurantes</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Informaçoes
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="informacoesuteis.html">Informaçoes Úteis</a></li>
-                <li><a class="dropdown-item" href="rent.html">Rent-A-Car</a></li>
-                <li><a class="dropdown-item" href="sobrenos.html">Sobre Nós</a></li>
-                <li><a class="dropdown-item" href="contactos.html">Contacta-nos</a></li>              
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <script>
-        const navE1 = document.querySelector('.navbar');
-
-          window.addEventListener('scroll', () => {
-              if (window.scrollY >= 56) {
-                  navE1.classList.add('navbar-scrolled');
-              } else if (window.scrollY < 56) {
-                  navE1.classList.remove('navbar-scrolled');
-              }
-          });
-      </script>
-      <!--- /navbar --->
+      <div id="navbar-container"></div>
       
 
     <div class="text-box">
@@ -106,22 +55,22 @@
           <div class="carousel-item active">
             <img src="Imagens/pagInicial/braga-romana.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5 style="color: #b3b3b3;"><strong>Braga Romana</strong></h5>
-              <p style="color: #b3b3b3;"> <strong> Bracara Augusta de 17 a 21 de maio</strong></p>
+              <h5 style="color: #000;"><strong>Braga Romana</strong></h5>
+              <p style="color: #000;"> <strong> Bracara Augusta de 17 a 21 de maio</strong></p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="Imagens/pagInicial/slide2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5 style="color: #b3b3b3;"><strong>Sao Joao</strong></h5>
-              <p style="color: #b3b3b3;"><strong>Braga vive Sao Joao de 16 a 25 de junho</strong></p>
+              <h5 style="color: #000;"><strong>Sao Joao</strong></h5>
+              <p style="color: #000;"><strong>Braga vive Sao Joao de 16 a 25 de junho</strong></p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="Imagens/pagInicial/slide3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5 style="color: #b3b3b3;"><strong>Noite Branca</strong></h5>
-              <p style="color: #b3b3b3;"><strong>A Noite Branca de Braga volta a 2, 3 e 4 de Setembro</strong></p>
+              <h5 style="color: #000;"><strong>Noite Branca</strong></h5>
+              <p style="color: #000;"><strong>A Noite Branca de Braga volta a 2, 3 e 4 de Setembro</strong></p>
             </div>
           </div>
         </div>
@@ -167,7 +116,7 @@
             </div>
 
             <div class="col-md-2 blue-column">
-              <h1>35€</h1>
+              <h1>27€</h1>
               <p>/por pessoa</p>
               <div class="d-flex justify-content-center">
                   <a href="tour1.html"><button class="btn btn-outline-light custom-button">Ver Tour</button></a>
@@ -265,13 +214,36 @@
   </section>
 <!-- /Gallery -->
 
-<!----------- footer ----------->
+
+<!-- Footer -->
 
 <div id="footer-container"></div>
 
+<!-- chamadas -->
 <script>
+
+  const userLogado = localStorage.getItem("acesso");
+
+  function loadCorrectNavbar() {
+  
+  if (userLogado) {
+    // Se o usuário estiver logado, carregue a segunda barra de navegação
+    loadNavbar2();
+  } else {
+    // Se o usuário não estiver logado, carregue a primeira barra de navegação
+    loadNavbar();
+  }
+}
+
+// Esperar o DOM ser carregado
+document.addEventListener('DOMContentLoaded', function() {
+    // Carregar a navbar
+    loadCorrectNavbar();
+
     loadFooter();
-  </script>
+});
+
+</script>
     
 </body>
 
