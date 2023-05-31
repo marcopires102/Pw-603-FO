@@ -65,7 +65,8 @@
           <th>Data</th>
           <th>Horas</th>
           <th>Preço</th>
-          <th>Estado</th>
+          <th>Guia</th>
+          <th>Estado</th> <!-- Nova coluna -->
         </tr>
       </thead>
       <tbody></tbody>
@@ -76,11 +77,11 @@
         var registros = JSON.parse(localStorage.getItem("registros")) || [];
         var tabela = document.getElementById("tabelaDados");
     
-        let loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'))
+        let loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
     
         for (var i = 0; i < registros.length; i++) {
           var registro = registros[i];
-          if (registro.user === loggedInUser.username) { // Filtra os registros pelo nome de usuário
+          if (registro.user === loggedInUser.username) {
             var novaLinha = tabela.insertRow();
             var celulaNome = novaLinha.insertCell(0);
             var celulaTelefone = novaLinha.insertCell(1);
@@ -89,8 +90,8 @@
             var celulaData = novaLinha.insertCell(4);
             var celulaHoras = novaLinha.insertCell(5);
             var celulaPreco = novaLinha.insertCell(6);
-            var celulaEstado = novaLinha.insertCell(7);
-
+            var celulaGuia = novaLinha.insertCell(7);
+            var celulaEstado = novaLinha.insertCell(8); 
     
             celulaNome.innerHTML = registro.nome;
             celulaTelefone.innerHTML = registro.telefone;
@@ -99,12 +100,13 @@
             celulaData.innerHTML = registro.data;
             celulaHoras.innerHTML = registro.horas;
             celulaPreco.innerHTML = registro.preco;
+            celulaGuia.innerHTML = registro.guia;
             celulaEstado.innerHTML = registro.estado;
-
           }
         }
       });
     </script>
+    
     
 
 

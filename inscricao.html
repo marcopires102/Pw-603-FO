@@ -56,105 +56,105 @@
 
     <div class="row justify-content-center d-flex">
       <div class="col-md-6">
-          <div class="row mt-5">
-              <div class="col-12">
-                  <h3>Inscreva-se já na sua próxima Tour!</h3>
-                  <p style="text-align: justify;">Preencha o seguinte formulário para efetuar a sua reserva.</p>
-              </div>
-              <div class="col-md-12"><label class="labels">Nome</label><input id="nomeInput" type="text" class="form-control" placeholder="Nome completo" value=""></div>
-              <div class="col-md-12 pt-3"><label class="labels">Telefone</label><input id="telefoneInput" type="email" class="form-control" placeholder="Número de telefone" value=""></div>
-              <div class="col-md-12 pt-3"><label class="labels" for="inputState">Tour</label><select id="tourInput" class="form-control">
-                  <option>Tour1</option>
-                  <option>Tour2</option>
-                  <option>Tour3</option>
-                  <option>Tour4</option>
-              </select></div>
-              <div class="col-md-12 pt-3"><label class="labels">Número de Participantes</label><input id="participantesInput" type="number" class="form-control" placeholder="Número de Participantes" value=""></div>
-              <div class="col-md-12 pt-3"><label class="labels">Data</label><input id="dataInput" type="text" class="form-control" placeholder="dd/mm/aaaa" value=""></div>
-              <div class="col-md-12 pt-3"><label class="labels">Horas</label><input id="horasInput" type="text" class="form-control" placeholder="--:--" value=""></div>
-  
-              <div class="col-12 pt-4">
-                  <button id="inscreverBtn" type="submit" class="btn btn-secondary">Inscrever</button>
-              </div>
+        <div class="row mt-5">
+          <div class="col-12">
+            <h3>Inscreva-se já na sua próxima Tour!</h3>
+            <p style="text-align: justify;">Preencha o seguinte formulário para efetuar a sua reserva.</p>
           </div>
+          <div class="col-md-12"><label class="labels">Nome</label><input id="nomeInput" type="text" class="form-control" placeholder="Nome completo" value=""></div>
+          <div class="col-md-12 pt-3"><label class="labels">Telefone</label><input id="telefoneInput" type="email" class="form-control" placeholder="Número de telefone" value=""></div>
+          <div class="col-md-12 pt-3"><label class="labels" for="inputState">Tour</label><select id="tourInput" class="form-control">
+            <option>Tour1</option>
+            <option>Tour2</option>
+            <option>Tour3</option>
+            <option>Tour4</option>
+          </select></div>
+          <div class="col-md-12 pt-3"><label class="labels">Número de Participantes</label><input id="participantesInput" type="number" class="form-control" placeholder="Número de Participantes" value=""></div>
+          <div class="col-md-12 pt-3"><label class="labels">Data</label><input id="dataInput" type="text" class="form-control" placeholder="dd/mm/aaaa" value=""></div>
+          <div class="col-md-12 pt-3"><label class="labels">Horas</label><input id="horasInput" type="text" class="form-control" placeholder="--:--" value=""></div>
+    
+          <div class="col-12 pt-4">
+            <button id="inscreverBtn" type="submit" class="btn btn-secondary">Inscrever</button>
+          </div>
+        </div>
       </div>
-  </div>
-  
-  <script>
+    </div>
+    
+    <script>
       document.getElementById("inscreverBtn").addEventListener("click", function() {
-          var nome = document.getElementById("nomeInput").value;
-          var telefone = document.getElementById("telefoneInput").value;
-          var tour = document.getElementById("tourInput").value;
-          var participantes = document.getElementById("participantesInput").value;
-          var data = document.getElementById("dataInput").value;
-          var horas = document.getElementById("horasInput").value;
-
-          if (tour === "Tour1" && participantes > 10) {
-            alert("A capacidade máxima para a Tour 1 é de 10 participantes.");
-            return; // Impede o envio do formulário
+        var nome = document.getElementById("nomeInput").value;
+        var telefone = document.getElementById("telefoneInput").value;
+        var tour = document.getElementById("tourInput").value;
+        var participantes = document.getElementById("participantesInput").value;
+        var data = document.getElementById("dataInput").value;
+        var horas = document.getElementById("horasInput").value;
+    
+        if (tour === "Tour1" && participantes > 10) {
+          alert("A capacidade máxima para a Tour 1 é de 10 participantes.");
+          return; // Impede o envio do formulário
         }
         if (tour === "Tour2" && participantes > 20) {
-            alert("A capacidade máxima para a Tour 2 é de 20 participantes.");
-            return; // Impede o envio do formulário
+          alert("A capacidade máxima para a Tour 2 é de 20 participantes.");
+          return; // Impede o envio do formulário
         }
         if (tour === "Tour3" && participantes > 8) {
-            alert("A capacidade máxima para a Tour 3 é de 8 participantes.");
-            return; // Impede o envio do formulário
+          alert("A capacidade máxima para a Tour 3 é de 8 participantes.");
+          return; // Impede o envio do formulário
         }
         if (tour === "Tour4" && participantes > 20) {
-            alert("A capacidade máxima para a Tour 4 é de 20 participantes.");
-            return; // Impede o envio do formulário
+          alert("A capacidade máxima para a Tour 4 é de 20 participantes.");
+          return; // Impede o envio do formulário
         }
         if (!/^\d+$/.test(telefone)) {
-            alert("O número de telefone deve conter apenas dígitos numéricos.");
-            return; // Impede o envio do formulário
+          alert("O número de telefone deve conter apenas dígitos numéricos.");
+          return; // Impede o envio do formulário
         }
-
+    
         if (telefone.length !== 9) {
-            alert("O número de telefone deve ter 9 dígitos.");
-            return; // Impede o envio do formulário
+          alert("O número de telefone deve ter 9 dígitos.");
+          return; // Impede o envio do formulário
         }
-
+    
         // Definir preços das tours
         var precosTours = {
-            Tour1: 35,
-            Tour2: 20,
-            Tour3: 50,
-            Tour4: 24
+          Tour1: 35,
+          Tour2: 20,
+          Tour3: 50,
+          Tour4: 24
         };
-
+    
         var precoTour = precosTours[tour];
         var preco = precoTour * participantes;
-
-        let loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'))
-
-          var dados = {
-              nome: nome,
-              telefone: telefone,
-              tour: tour,
-              participantes: participantes,
-              data: data,
-              horas: horas,
-              preco: preco,
-              estado: "Pendente",
-              user: loggedInUser.username
-          };
-          
-          
-
-          var registros = JSON.parse(localStorage.getItem("registros")) || [];
-          registros.push(dados);
-          localStorage.setItem("registros", JSON.stringify(registros));
-  
-          // Limpar os campos de entrada
-          document.getElementById("nomeInput").value = "";
-          document.getElementById("telefoneInput").value = "";
-          document.getElementById("tourInput").value = "";
-          document.getElementById("participantesInput").value = "";
-          document.getElementById("dataInput").value = "";
-          document.getElementById("horasInput").value = "";
+    
+        let loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+    
+        var dados = {
+          nome: nome,
+          telefone: telefone,
+          tour: tour,
+          participantes: participantes,
+          data: data,
+          horas: horas,
+          preco: preco,
+          estado: "Pendente",
+          guia: "Por definir", // Nova coluna "Guia"
+          user: loggedInUser.username
+        };
+    
+        var registros = JSON.parse(localStorage.getItem("registros")) || [];
+        registros.push(dados);
+        localStorage.setItem("registros", JSON.stringify(registros));
+    
+        // Limpar os campos de entrada
+        document.getElementById("nomeInput").value = "";
+        document.getElementById("telefoneInput").value = "";
+        document.getElementById("tourInput").value = "";
+        document.getElementById("participantesInput").value = "";
+        document.getElementById("dataInput").value = "";
+        document.getElementById("horasInput").value = "";
       });
-  </script>
+    </script>
+    
     
   
 <!-- Footer -->
