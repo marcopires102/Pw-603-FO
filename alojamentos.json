@@ -22,7 +22,7 @@
 		"image": "Imagens/alojamentos/domus.png",
 		"title": "Domus 26 Guesthouse",
         "distancia": "200m",
-		"descricao": "Integrada num edifício do século XIX que foi recentemente restaurado, a Domus 26 Guesthouse possui uma localização de excelência para quem pretende descobrir a pé o centro histórico de Braga.",
+		"descricao": "Integrada num edifício do século XIX que foi recentemente restaurado, a Domus 26 Guesthouse possui uma localização de excelência para quem pretende descobrir a pé o centro histórico<br>de Braga.",
         "telemovel": "917 339 095",
 		"categoria": "pousadas"
 	},
@@ -58,7 +58,7 @@
 		"image": "Imagens/alojamentos/apartamentos.png",
 		"title": "Sé Apartamentos - Porta34 Central Apartments",
         "distancia": "1,2km",
-		"descricao": "As acomodações incluem ar condicionado, televisão, uma kitchenette totalmente equipada e uma casa de banho privativa...",
+		"descricao": "As acomodações incluem ar condicionado, televisão, uma kitchenette totalmente equipada e uma casa de banho privativa.",
         "telemovel": "304 503 190",
 		"categoria": "condominios"
 	},

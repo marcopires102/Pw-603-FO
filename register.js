@@ -1,4 +1,5 @@
 function registerUser() {
+    
     var username = document.getElementById("username").value;
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
@@ -23,4 +24,5 @@ function registerUser() {
 
     // Redirecionar para a página de login, se necessário
     window.location.href = "login.html";
+
 }

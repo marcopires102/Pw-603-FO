@@ -17,6 +17,6 @@ function loginUser() {
         window.location.href = "paginaInicial.html";
     } else {
         alert("Credenciais inválidas. Por favor, tente novamente.");
-    }
+    }  
     
 }

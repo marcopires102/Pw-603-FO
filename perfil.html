@@ -22,6 +22,7 @@
     <script src="footer.js"></script>
     <script src="navbar.js"></script>
     <script src="navbar2.js"></script>
+    <script src="perfil.js"></script>
 
 </head>
 <body>
@@ -40,43 +41,44 @@
 <!----------- fim do header ----------->
 
 <div class="container pt-2 pb-2">
-    <div class="row justify-content-center d-flex">
-      <div class="col-md-2 text-center">
-        <a href="perfil.html"><button class="btn btn-light bg-white border-0">Perfil</button></a>
-      </div>
-      <div class="col-md-2 text-center">
-        <a href="inscricao.html"><button class="btn btn-light bg-white border-0">Inscrição</button></a>
-      </div>
-      <div class="col-md-2 text-center">
-        <a href="reservas.html"><button class="btn btn-light bg-white border-0">Reservas</button></a>
-      </div>
+  <div class="row justify-content-center d-flex">
+    <div class="col-md-2 text-center">
+      <a href="perfil.html"><button class="btn btn-light bg-white border-0">Perfil</button></a>
+    </div>
+    <div class="col-md-2 text-center">
+      <a href="inscricao.html"><button class="btn btn-light bg-white border-0">Inscrição</button></a>
+    </div>
+    <div class="col-md-2 text-center">
+      <a href="reservas.html"><button class="btn btn-light bg-white border-0">Reservas</button></a>
     </div>
   </div>
+</div>
 
-    <hr style="width: 70%; border-top: 2px solid #000; margin: 0 auto;">
+  <hr style="width: 70%; border-top: 2px solid #000; margin: 0 auto;">
 
 <div class="container rounded bg-white mt-3 mb-5">
-    <div class="row justify-content-center d-flex">
-        <div class="col-md-4 border-right">
-            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-4" width="180px" src="Imagens/sobreNos/amongo.png"><span class="font-weight-bold text-black">Username</span></div>
-        </div>
-        <div class="col-md-6 border-right">
-            <div class="p-3 py-5">
-                
-                <div class="row mt-3">
-                    <div class="col-md-8"><label class="labels">Nome de Utilizador</label><input type="text" class="form-control" placeholder="Nome" value=""></div>
-                    <div class="col-md-8 pt-3"><label class="labels">Email</label><input type="email" class="form-control" placeholder="Email" value=""></div>
-                    <div class="col-md-8 pt-3"><label class="labels">Password</label><input type="password" class="form-control" placeholder="Password" value=""></div>
-                    
-                </div>
+  <div class="row justify-content-center d-flex">
+      <div class="col-md-4 border-right">
+          <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+            <img class="rounded-circle mt-4" width="180px" src="Imagens/headers/icon-perfil.png" id="user-image">
+            <span class="font-weight-bold text-black" id="loggedInUsername"></span></div>
+          
+      </div>
+      <div class="col-md-6 border-right">
+          <div class="p-3 py-5">
+              
+              <div class="row mt-3">
+                  <div class="col-md-8"><label class="labels">Nome de Utilizador</label><input type="text" class="form-control" placeholder="Nome" id="username" name="username"></div>
+                  <div class="col-md-8 pt-3"><label class="labels">Email</label><input type="email" class="form-control" placeholder="Email" id="email" name="email"></div>
+                  <div class="col-md-8 pt-3"><label class="labels">Password</label><input type="password" class="form-control" placeholder="Password" id="password" name="password"></div>
+                  
+              </div>
 
-                <div class="pt-4"><button class="btn btn-secondary profile-button" type="button">Salvar</button></div>
-            </div>
-        </div>
-       
-    </div>
-</div>
-</div>
+              <div class="pt-4"><button class="btn btn-secondary profile-button" type="button">Salvar</button></div>
+          </div>
+      </div>
+     
+  </div>
 </div>
   
 <!-- Footer -->

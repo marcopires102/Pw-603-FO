@@ -199,6 +199,8 @@
         padding-bottom: 5px;
        
       }
+
+      
   }
 
 
@@ -372,7 +374,7 @@
 /*------------------------------------ SOBRE NOS ------------------------------------*/  
 
 
-.sub-header-SobreNos{
+.sub-header-sobrenos{
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(Imagens/headers/bg_sobrenos.jpeg);
@@ -502,6 +504,5 @@ label a{
     text-decoration: none;
     color: #fff;
 }
-
 
 

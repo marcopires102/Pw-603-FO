@@ -93,24 +93,24 @@
           alert("A capacidade máxima para a Tour 1 é de 10 participantes.");
           return; // Impede o envio do formulário
         }
-        if (tour === "Tour2" && participantes > 20) {
+        else if (tour === "Tour2" && participantes > 20) {
           alert("A capacidade máxima para a Tour 2 é de 20 participantes.");
           return; // Impede o envio do formulário
         }
-        if (tour === "Tour3" && participantes > 8) {
+        else if (tour === "Tour3" && participantes > 8) {
           alert("A capacidade máxima para a Tour 3 é de 8 participantes.");
           return; // Impede o envio do formulário
         }
-        if (tour === "Tour4" && participantes > 20) {
+        else if (tour === "Tour4" && participantes > 20) {
           alert("A capacidade máxima para a Tour 4 é de 20 participantes.");
           return; // Impede o envio do formulário
         }
-        if (!/^\d+$/.test(telefone)) {
+        else if (!/^\d+$/.test(telefone)) {
           alert("O número de telefone deve conter apenas dígitos numéricos.");
           return; // Impede o envio do formulário
         }
     
-        if (telefone.length !== 9) {
+        else if (telefone.length !== 9) {
           alert("O número de telefone deve ter 9 dígitos.");
           return; // Impede o envio do formulário
         }
@@ -144,7 +144,7 @@
         var registros = JSON.parse(localStorage.getItem("registros")) || [];
         registros.push(dados);
         localStorage.setItem("registros", JSON.stringify(registros));
-    
+
         // Limpar os campos de entrada
         document.getElementById("nomeInput").value = "";
         document.getElementById("telefoneInput").value = "";
@@ -152,7 +152,12 @@
         document.getElementById("participantesInput").value = "";
         document.getElementById("dataInput").value = "";
         document.getElementById("horasInput").value = "";
+
+        alert("Obrigado! A sua inscrição está pendente de confirmação!");
+            return;
       });
+      
+     
     </script>
     
     

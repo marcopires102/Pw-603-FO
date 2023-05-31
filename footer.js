@@ -70,7 +70,7 @@ function loadFooter() {
                 Informaçoes
             </h6>
             <p>
-                <a href="informacoesuteis.html" class="text-reset">Informaçoes Uteis</a>
+                <a href="informacoesuteis.html" class="text-reset">Informações Uteis</a>
               </p>
               <p>
                 <a href="rent.html" class="text-reset">Rent-A-Car</a>

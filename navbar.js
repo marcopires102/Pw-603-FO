@@ -19,7 +19,7 @@ function loadNavbar() {
                 Descobrir Braga
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="porquebraga.html">Porque Braga</a></li>
+                <li><a class="dropdown-item" href="porquebraga.html">Porquê Braga</a></li>
                 <li><a class="dropdown-item" href="alojamentos.html">Alojamentos</a></li>
                 <li><a class="dropdown-item" href="bares.html">Bares</a></li>
                 <li><a class="dropdown-item" href="museus.html">Museus</a></li>
@@ -28,10 +28,10 @@ function loadNavbar() {
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Informaçoes
+                Informações
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="informacoesuteis.html">Informaçoes Úteis</a></li>
+                <li><a class="dropdown-item" href="informacoesuteis.html">Informações Úteis</a></li>
                 <li><a class="dropdown-item" href="rent.html">Rent-A-Car</a></li>
                 <li><a class="dropdown-item" href="sobrenos.html">Sobre Nós</a></li>
                 <li><a class="dropdown-item" href="contactos.html">Contacta-nos</a></li>              
